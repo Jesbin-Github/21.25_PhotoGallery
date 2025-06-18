@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 Squires Ave.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+
+</head>
+<body>
+
+    <div class="settings">
+        <button class="settings-button" onclick="toggleMenu()">⋮</button>
+        <div class="content" id="menu">
+        <a href="#" onclick="changePicture()">Change Theme Image</a>
+        <a href="https://ca.pinterest.com/jesbinjobi/">About The Creator</a>
+        </div>
+    </div>
+
+
+    <div class="mainsection">
+
+        <div class="overthehead">
+            <a href="https://maps.app.goo.gl/mUEdaedyFzY1nBMM7">- Port Union</a>
+        </div>
+           
+        <div class="images">
+            <img src="Overlay.JPG" class="overlay" >
+            <img src="Theme.JPG" class="theme" id="themeimage">
+
+            <div class="para">
+                <p>
+                    I walk where echoes lose their breath, <br>
+                    where winter melts in quiet death. <br>
+                    The snow still lingers, laced with time, <br>
+                    yet beneath it, the grass hums a soft and distant rhyme. <br><br>
+                
+                    The sky above, vast and undone, <br>
+                    holds the fading glow of a weary moon and a dying sun. <br>
+                    The winds murmur secrets in hushed tones, <br>
+                    a melody woven from lost whispers <br>
+                    and the ghosts of passing seasons. <br><br>
+                
+                    The earth beneath my feet fades, <br>
+                    caught between the hush of winter’s grasp <br>
+                    and the quiet promise of spring. <br>
+                    Yet, I keep moving, drawn beyond the solemn stillness, <br>
+                    past the parting snow, toward something unseen. <br><br>
+                
+                    Beyond the hill, beyond the frost’s embrace, <br>
+                    a softer light waits, <br>
+                    where the cold no longer clings, <br>
+                    and the silence finally sings.  
+                </p>
+                
+                
+            </div>
+        </div>
+
+       
+
+    </div> 
+    
+    <div class="music">
+        <button onclick="playMusic()" class="music-button">
+            &#9835; 
+        </button>
+    </div>
+
+    <audio id="music" src="music.mp3"></audio>
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
